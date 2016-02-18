@@ -7,6 +7,8 @@ var bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
+var gpio = require('./routes/gpio');
+var nailduino = require('./routes/nailduino');
 
 var app = express();
 
@@ -24,6 +26,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/users', users);
+app.use('/gpio', gpio);
+app.use('/nailduino', nailduino);
 app.use('/snap', express.static(__dirname + 'public/snap'));
 
 // catch 404 and forward to error handler

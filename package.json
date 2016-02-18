@@ -11,7 +11,10 @@
     "debug": "~2.2.0",
     "express": "~4.13.1",
     "jade": "~1.11.0",
+    "johnny-five": "^0.9.18",
     "morgan": "~1.6.1",
+    "rpi-gpio": "~0.7.0",
+    "raspi-io": "*",
     "serve-favicon": "~2.3.0"
   }
 }

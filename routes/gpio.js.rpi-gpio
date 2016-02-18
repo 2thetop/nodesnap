@@ -1,0 +1,35 @@
+var gpio = require('rpi-gpio');
+var express = require('express');
+var router = express.Router();
+
+/* GET home page. */
+router.get('/', function(req, res, next) {
+  //res.render('gpio', { title: 'Gpio' });
+
+   
+  res.send('Welcome to GPIO');
+});
+
+router.get('/read/:pinno', function(req, res, next) {
+  gpio.setup(pinno=req.params.pinno, gpio.DIR_IN, function(){
+    gpio.read(pinno, function(err, value) {
+      console.log('The ' + pinno + ' value is ' + value);
+      res.send(value);
+    });
+  });
+});
+
+router.get('/write/:pinno/:value', function(req, res, next) { 
+  gpio.setup(pinno=req.params.pinno, gpio.DIR_OUT, function(){
+    value=(req.params.value.toString().trim() === 'HIGH')?true:false;
+    gpio.write(pinno, value, function(err) {
+      if (err) throw err;
+      console.log('The ' + pinno + ' Written ' + value); 
+      //res.send((value==true)?'HIGH':'LOW');
+      res.send('');
+    });
+  });
+});
+
+module.exports = router;
+
