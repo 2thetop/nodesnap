@@ -23,7 +23,7 @@
                 <block s="reportURL">
                     <block s="reportJoinWords">
                         <list>
-                            <l>192.168.1.125:3000/nailduino/blink/</l>
+                            <l>192.168.1.191:3000/nailduino/blink/</l>
                             <block var="pin"/>
                         </list>
                     </block>
@@ -62,7 +62,9 @@
 12
 16
 20
-21</options></input><input type="%txt" readonly="true">LOW<options>LOW
+21
+29
+40</options></input><input type="%txt" readonly="true">LOW<options>LOW
 HIGH</options></input></inputs>
         
        <script>
@@ -70,7 +72,7 @@ HIGH</options></input></inputs>
                 <block s="reportURL">
                     <block s="reportJoinWords">
                         <list>
-                            <l>192.168.1.125:3000/gpio/write/</l>
+                            <l>192.168.1.191:3000/gpio/write/</l>
                             <block var="pin"/>
 			    <l>/</l>
                             <block var="state"/>
@@ -111,7 +113,9 @@ HIGH</options></input></inputs>
 12
 16
 20
-21</options></input><input type="%n" readonly="true">0<options>0
+21
+29
+40</options></input><input type="%n" readonly="true">0<options>0
 1
 2
 3
@@ -172,7 +176,9 @@ HIGH</options></input></inputs>
 12
 16
 20
-21</options></input><input type="%txt" readonly="true">LOW<options>LOW
+21
+29
+40</options></input><input type="%txt" readonly="true">LOW<options>LOW
 HIGH</options></input></inputs>
 
         <script>
@@ -181,7 +187,7 @@ HIGH</options></input></inputs>
                     <block s="reportURL">
                         <block s="reportJoinWords">
                             <list>
-				<l>192.168.1.125:3000/gpio/read/</l>
+				<l>192.168.1.191:3000/gpio/read/</l>
 				<block var="pin"/>
                             </list>
                         </block>
