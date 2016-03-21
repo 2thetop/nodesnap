@@ -4,6 +4,7 @@
 * tested v.5.x.. [Details](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
 ```
 #!bash
+
 $ curl -sL https://deb.nodesource.com/setup_5.x | sudo -E bash -
 $ sudo apt-get install -y build-essential
 $ sudo apt-get install -y nodejs
