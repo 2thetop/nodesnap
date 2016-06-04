@@ -1,5 +1,15 @@
 # README #
 
+### WiringPi
+* If you have not wiringpi, like raspbian-jessie-lite.
+```
+#!bash
+$ sudo apt-get install git-core
+$ git clone git://git.drogon.net/wiringPi
+$ cd wiringPi
+$ ./build
+```
+
 ### Install nodesnap
 * tested v.5.x.. [Details](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
 ```
