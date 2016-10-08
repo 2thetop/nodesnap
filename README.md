@@ -23,7 +23,7 @@ $ sudo apt-get install -y nodejs
 ### Clone Source
 ```
 #!bash
-$ git clone https://muster22@bitbucket.org/rasplay/nodesnap.git
+$ git clone https://github.com/rasplay/nodesnap.git
 $ cd nodesnap
 ```
 
