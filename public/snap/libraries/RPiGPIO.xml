@@ -23,7 +23,7 @@
                 <block s="reportURL">
                     <block s="reportJoinWords">
                         <list>
-                            <l>192.168.1.191:3000/nailduino/blink/</l>
+                            <l>raspberrypi:3000/nailduino/blink/</l>
                             <block var="pin"/>
                         </list>
                     </block>
@@ -72,7 +72,7 @@ HIGH</options></input></inputs>
                 <block s="reportURL">
                     <block s="reportJoinWords">
                         <list>
-                            <l>192.168.1.191:3000/gpio/write/</l>
+                            <l>raspberrypi:3000/gpio/write/</l>
                             <block var="pin"/>
 			    <l>/</l>
                             <block var="state"/>
@@ -135,7 +135,7 @@ HIGH</options></input></inputs>
                 <block s="reportURL">
                     <block s="reportJoinWords">
                         <list>
-                            <l>192.168.1.2:8280/pinpwm?pin=</l>
+                            <l>raspberrypi:8280/pinpwm?pin=</l>
                             <block var="pin"/>
                             <l>&amp;duty=</l>
                             <block var="duty"/>
@@ -187,7 +187,7 @@ HIGH</options></input></inputs>
                     <block s="reportURL">
                         <block s="reportJoinWords">
                             <list>
-				<l>192.168.1.191:3000/gpio/read/</l>
+				<l>raspberrypi:3000/gpio/read/</l>
 				<block var="pin"/>
                             </list>
                         </block>
