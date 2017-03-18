@@ -38,3 +38,8 @@ $ npm install
 #!bash
 $ ./run
 ```
+
+### Connect on your browser
+```
+http://raspberrypi.local:3000/snap
+```
