@@ -34,7 +34,7 @@
 
     </block-definition>
 
-    <block-definition s="set BCM2835 pin %&apos;pin&apos; to %&apos;state&apos;" type="command" category="looks">
+    <block-definition s="set Raspberrypi pin %&apos;pin&apos; to %&apos;state&apos;" type="command" category="looks">
         <header/>
         <code/>
 
@@ -86,7 +86,7 @@ HIGH</options></input></inputs>
         
     </block-definition>
 
-    <block-definition s="set BCM2835 pin %&apos;pin&apos; to PWM duty %&apos;duty&apos;" type="command" category="looks">
+    <block-definition s="set Raspberrypi pin %&apos;pin&apos; to PWM duty %&apos;duty&apos;" type="command" category="looks">
         <header/>
         <code/>
 
@@ -150,7 +150,7 @@ HIGH</options></input></inputs>
         
     </block-definition>
 
-    <block-definition s="pin %&apos;pin&apos; is %&apos;state&apos;" type="predicate" category="operators">
+    <block-definition s="Raspberrypi pin %&apos;pin&apos; is %&apos;state&apos;" type="predicate" category="operators">
         
         <header/>
         <code/>
