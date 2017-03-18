@@ -150,7 +150,7 @@ HIGH</options></input></inputs>
         
     </block-definition>
 
-    <block-definition s="Raspberrypi pin %&apos;pin&apos; is %&apos;state&apos;" type="predicate" category="operators">
+    <block-definition s="Raspberrypi pin %&apos;pin&apos; state" type="predicate" category="operators">
         
         <header/>
         <code/>
@@ -181,8 +181,7 @@ HIGH</options></input></inputs>
 36
 37
 38
-40</options></input><input type="%txt" readonly="true">LOW<options>LOW
-HIGH</options></input></inputs>
+40</options></input></inputs>
 
         <script>
             <block s="doIfElse">
